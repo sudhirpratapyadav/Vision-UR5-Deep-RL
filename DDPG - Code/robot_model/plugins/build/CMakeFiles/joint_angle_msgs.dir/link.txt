@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -std=c++11  -shared -Wl,-soname,libjoint_angle_msgs.so -o libjoint_angle_msgs.so CMakeFiles/joint_angle_msgs.dir/joint_angles.pb.cc.o  -L/usr/lib/x86_64-linux-gnu/gazebo-7/plugins 

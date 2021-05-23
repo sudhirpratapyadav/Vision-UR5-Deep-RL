@@ -1,0 +1,4 @@
+1. set GAZEBO_MODEL_PATH to include path of robot_model folder
+example: export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/sudhir/Dropbox/DDPG/robot_simulation/robot_model/
+
+

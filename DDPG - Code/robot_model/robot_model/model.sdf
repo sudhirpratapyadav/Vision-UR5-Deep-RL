@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='robot_model'>
+
+    <include>
+      <uri>model://base_stand/</uri>
+      <pose>0 0 0 0 0 0</pose>>
+    </include>
+
+    <include>
+    	<uri>model://ur5/</uri>
+    	<pose>0 0 1.2 0 0 0</pose>>
+    </include>
+
+    <joint name="fixed_to_ground" type="fixed">
+      <child>base_stand::ground_base_link</child>
+      <parent>world</parent>
+    </joint>
+
+    <joint name="base_stand_joint" type="fixed">
+      <child>ur5::base_link</child>
+      <parent>base_stand::upper_base_link</parent>
+    </joint>
+
+
+    <static>0</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>
