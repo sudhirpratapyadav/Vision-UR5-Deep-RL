@@ -1,7 +1,7 @@
 # Vision-based-control-of-UR5-robotic-arm-using-Deep-RL
 This project tries to solve Visual Servoing problem using Reinforcement Learning. UR5 robotic arm is trained to visually servo a speicific color object via Reinforcement Learning.
 
-# Please read documentation to know more details of project.
+Please read documentation to know more details of project.
 
 # Contributions by Open Source Libraries
 In DDPG Code 3 Folders/Branches are taken from open source projects of other people. I am very greateful towards them for that. These are following:
